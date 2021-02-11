@@ -41,9 +41,8 @@ public class App3Consumer implements Runnable {
                
             }
         } catch (InterruptedException ex) {
-            System.out.println(ex.getMessage());
         }
-        System.out.println(nome + "" + log);
+        System.out.println(nome + " " + log);
     }
     
 }

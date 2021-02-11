@@ -16,7 +16,7 @@ import java.util.LinkedList;
 public class App3Coda {
     
     private final int capacita;
-    private  LinkedList<String> coda;
+    private final  LinkedList<String> coda;
 
     
     // contatori di quelli in attesa tra prod e consumatori
@@ -25,6 +25,7 @@ public class App3Coda {
     
     public App3Coda(int capacita) {
         this.capacita = capacita;
+        coda = new LinkedList<>();
     }
 
     

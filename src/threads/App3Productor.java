@@ -39,9 +39,8 @@ public class App3Productor implements Runnable {
             }
 
         } catch (InterruptedException e) {
-         System.out.println(e.getMessage());
         }
-        System.out.println(nome + "" + log);
+        System.out.println(nome + " " + log);
 
     }
 

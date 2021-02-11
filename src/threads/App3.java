@@ -13,7 +13,7 @@ public class App3 {
     
     public static void main(String[] args) throws InterruptedException {
         App3Coda c = new App3Coda(20);
-        String[] text = "Tu sei laddove sono i tuoi pensieri-calendario filosofico".split(" ");
+        String[] text = "mare mare mare".split(" ");
         Thread p1 = new Thread(new App3Productor("p1", 1, c, text));
         Thread c1 = new Thread(new App3Consumer("c1", 2, c));
         Thread c2 = new Thread(new App3Consumer("c2", 4, c));
