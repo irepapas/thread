@@ -17,7 +17,9 @@ public class App3Coda {
     
     private final int capacita;
     private final  LinkedList<String> coda;
-
+    /*
+    al posto di costruire la coda si poteva utilizzare ArrayBlockingQueue
+    */
     
     // contatori di quelli in attesa tra prod e consumatori
     private int nProd,nCons;
