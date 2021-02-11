@@ -12,6 +12,10 @@ package threads;
  */
 public class App2 {
     public static void main(String[] args) throws InterruptedException {
+        /*
+        runnable a dichiarazione mi permette di usare solo i suoi metodi 
+        a runtime lo dichiaro come una classe che lo implementa 
+        */
         Runnable worker = new App2Worker("work!!"); 
         Thread t = new Thread(worker); //parametro è variabile di Runnable definifta in precedenza 
         t.start();
